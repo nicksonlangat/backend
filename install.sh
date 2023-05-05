@@ -26,4 +26,6 @@ python manage.py startapp accounts
 cp ./models.py ./accounts
 cp ./settings.py ./mysite
 
+rm ./settings.py ./models.py
+
 echo "That looks good, please take over:)"
