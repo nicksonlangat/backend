@@ -30,6 +30,6 @@ cp ./views.py ./accounts
 cp ./serializers.py ./accounts
 cp ./settings.py ./mysite
 
-rm ./settings.py ./models.py ./urls.py ./utils.py ./views.py /serializers.py
+rm ./settings.py ./models.py ./urls.py ./utils.py ./views.py ./serializers.py
 
 echo "That looks good, please take over:)"
