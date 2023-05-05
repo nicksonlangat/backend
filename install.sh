@@ -24,8 +24,12 @@ python manage.py startapp accounts
 
 # cp ../../../../Desktop/settings.py ./mysite
 cp ./models.py ./accounts
+cp ./urls.py ./accounts
+cp ./utils.py ./accounts
+cp ./views.py ./accounts
+cp ./serializers.py ./accounts
 cp ./settings.py ./mysite
 
-rm ./settings.py ./models.py
+rm ./settings.py ./models.py ./urls.py ./utils.py ./views.py /serializers.py
 
 echo "That looks good, please take over:)"
