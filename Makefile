@@ -1,2 +1,2 @@
 install:
-	sudo chmod u+x install.sh && sudo ./install.sh
+	sudo chmod u+x install.sh && ./install.sh
